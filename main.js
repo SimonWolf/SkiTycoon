@@ -96,8 +96,21 @@ window.addEventListener('keypress', function (e) {
     // Ctrl + z pressed
   //}
   if (e.key=="d"){undo();}
-  else if (e.key="c"){(function () {
-    console.log(color);
+  if (e.key=="x"){
+
+    if(Element==1){Element=2;}
+    else if(Element==2){Element=3;}
+    else if(Element==3){Element=4;}
+    else if(Element==4){Element=6;}
+    else if(Element==6){Element=8;}
+    else if(Element==8){Element=10;}
+    else if(Element==10){Element=12;}
+    else if(Element==12){Element=14;}
+    else if(Element==14){Element=1;}
+
+
+  }
+  if (e.key=="c"){(function () {
     if(color=="gelb"){
         document.getElementById('gelb').style.display='none';
         document.getElementById('rot').style.display='inline';
