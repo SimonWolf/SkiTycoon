@@ -91,8 +91,32 @@ function undo(){
   if (verlauf[verlauf.length -1]=="grünLift12"){grünLift12.splice(-1,1);verlauf.splice(-1,1);}
   if (verlauf[verlauf.length -1]=="grünLift14"){grünLift14.splice(-1,1);verlauf.splice(-1,1);}
 }
-window.addEventListener('keydown', function (e) {
+window.addEventListener('keypress', function (e) {
+  //if (e.ctrlKey && e.keyCode == 90) {
+    // Ctrl + z pressed
+  //}
   if (e.key=="d"){undo();}
+  else if (e.key="c"){(function () {
+    console.log(color);
+    if(color=="gelb"){
+        document.getElementById('gelb').style.display='none';
+        document.getElementById('rot').style.display='inline';
+        color='rot';}
+
+    else if(color=="rot"){
+        document.getElementById('rot').style.display='none';
+        document.getElementById('blau').style.display='inline';
+        color='blau';}
+    else if(color=="blau"){
+        document.getElementById('blau').style.display='none';
+        document.getElementById('grün').style.display='inline';
+        color='grün';}
+    else if(color=="grün"){
+        document.getElementById('grün').style.display='none';
+        document.getElementById('gelb').style.display='inline';
+            color='gelb';}
+  })();}
+
 });
 window.onload = function(){
 
