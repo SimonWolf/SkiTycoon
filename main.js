@@ -91,6 +91,9 @@ function undo(){
   if (verlauf[verlauf.length -1]=="grünLift12"){grünLift12.splice(-1,1);verlauf.splice(-1,1);}
   if (verlauf[verlauf.length -1]=="grünLift14"){grünLift14.splice(-1,1);verlauf.splice(-1,1);}
 }
+window.addEventListener('keydown', function (e) {
+  if (e.key=="d"){undo();}
+});
 window.onload = function(){
 
     //canvas init
