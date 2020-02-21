@@ -49,47 +49,47 @@ var blauLift14=[];
 
 function undo(){
   if (verlauf[verlauf.length -1]=="gelbH1"){gelbH1.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbH2"){gelbH2.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbSchirm"){gelbSchirm.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbLift3"){gelbLift3.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbLift6"){gelbLift6.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbLift8"){gelbLift8.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbLift10"){gelbLift10.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbLift12"){gelbLift12.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="gelbLift14"){gelbLift14.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbH2"){gelbH2.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbSchirm"){gelbSchirm.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbLift3"){gelbLift3.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbLift6"){gelbLift6.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbLift8"){gelbLift8.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbLift10"){gelbLift10.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbLift12"){gelbLift12.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="gelbLift14"){gelbLift14.splice(-1,1);verlauf.splice(-1,1);}
 
 
-  if (verlauf[verlauf.length -1]=="rotH1"){rotH1.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotH2"){rotH2.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotSchirm"){rotSchirm.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotLift3"){rotLift3.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotLift6"){rotLift6.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotLift8"){rotLift8.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotLift10"){rotLift10.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotLift12"){rotLift12.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="rotLift14"){rotLift14.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotH1"){rotH1.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotH2"){rotH2.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotSchirm"){rotSchirm.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotLift3"){rotLift3.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotLift6"){rotLift6.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotLift8"){rotLift8.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotLift10"){rotLift10.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotLift12"){rotLift12.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="rotLift14"){rotLift14.splice(-1,1);verlauf.splice(-1,1);}
 
 
-  if (verlauf[verlauf.length -1]=="blauH1"){blauH1.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauH2"){blauH2.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauSchirm"){blauSchirm.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauLift3"){blauLift3.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauLift6"){blauLift6.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauLift8"){blauLift8.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauLift10"){blauLift10.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauLift12"){blauLift12.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="blauLift14"){blauLift14.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauH1"){blauH1.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauH2"){blauH2.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauSchirm"){blauSchirm.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauLift3"){blauLift3.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauLift6"){blauLift6.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauLift8"){blauLift8.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauLift10"){blauLift10.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauLift12"){blauLift12.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="blauLift14"){blauLift14.splice(-1,1);verlauf.splice(-1,1);}
 
 
-  if (verlauf[verlauf.length -1]=="grünH1"){grünH1.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünH2"){grünH2.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünSchirm"){grünSchirm.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünLift3"){grünLift3.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünLift6"){grünLift6.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünLift8"){grünLift8.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünLift10"){grünLift10.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünLift12"){grünLift12.splice(-1,1);verlauf.splice(-1,1);}
-  if (verlauf[verlauf.length -1]=="grünLift14"){grünLift14.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünH1"){grünH1.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünH2"){grünH2.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünSchirm"){grünSchirm.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünLift3"){grünLift3.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünLift6"){grünLift6.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünLift8"){grünLift8.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünLift10"){grünLift10.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünLift12"){grünLift12.splice(-1,1);verlauf.splice(-1,1);}
+  else if (verlauf[verlauf.length -1]=="grünLift14"){grünLift14.splice(-1,1);verlauf.splice(-1,1);}
 }
 window.addEventListener('keypress', function (e) {
   //if (e.ctrlKey && e.keyCode == 90) {
