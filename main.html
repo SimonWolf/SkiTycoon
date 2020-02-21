@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ski-Gebiet</title>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+    <script src="main.js"></script>
+</head>
+<body>
+<div style="position: fixed; top:10px; right: 10px; padding:10px;">
+  <!--<button onclick="undo();">delete</button>-->
+    <div id="gelb">
+        <button onclick="(function () {
+          document.getElementById('gelb').style.display='none';
+          document.getElementById('rot').style.display='inline';
+          color='rot';
+        })();">change</button>
+        <img  src="images/gelb/Hütte1.gif" style="height: 30px" onclick="Element=1;">
+        <button onclick="gelbH1.splice(-1,1);">x</button>
+        <img  src="images/gelb/Hütte2.gif" style="height: 30px"  onclick="Element=2;">
+        <button onclick="gelbH2.splice(-1,1);">x</button>
+        <img  src="images/gelb/Schirm.gif" style="height: 30px" onclick="Element=3;">
+        <button onclick="gelbSchirm.splice(-1,1);">x</button>
+        <img  src="images/gelb/Lift3.gif" style="height: 30px" onclick="Element=4;">
+        <button onclick="gelbLift3.splice(-1,1);">x</button>
+        <img  src="images/gelb/Lift6.gif" style="height: 30px" onclick="Element=6;">
+        <button onclick="gelbLift6.splice(-1,1);">x</button>
+        <img  src="images/gelb/Lift7.gif" style="height: 30px" onclick="Element=8;">
+        <button onclick="gelbLift8.splice(-1,1);">x</button>
+        <img  src="images/gelb/Lift8.gif" style="height: 30px" onclick="Element=10;">
+        <button onclick="gelbLift10.splice(-1,1);">x</button>
+        <img  src="images/gelb/Lift11.gif" style="height: 30px" onclick="Element=12;">
+        <button onclick="gelbLift12.splice(-1,1);">x</button>
+        <img  src="images/gelb/Lift12.gif" style="height: 30px" onclick="Element=14;">
+        <button onclick="gelbLift14.splice(-1,1);">x</button>
+
+    </div>
+    <div id="rot" style="display:none;">
+        <button onclick="(function () {
+          document.getElementById('rot').style.display='none';
+          document.getElementById('blau').style.display='inline';
+          color='blau';
+        })();">change</button>
+        <img  src="images/rot/Hütte1.gif" style="height: 30px" onclick="Element=1;">
+        <button onclick="rotH1.splice(-1,1);">x</button>
+        <img  src="images/rot/Hütte2.gif" style="height: 30px"  onclick="Element=2;">
+        <button onclick="rotH2.splice(-1,1);">x</button>
+        <img  src="images/rot/Schirm.gif" style="height: 30px" onclick="Element=3;">
+        <button onclick="rotSchirm.splice(-1,1);">x</button>
+        <img  src="images/rot/Lift3.gif" style="height: 30px" onclick="Element=4;">
+        <button onclick="rotLift3.splice(-1,1);">x</button>
+        <img  src="images/rot/Lift6.gif" style="height: 30px" onclick="Element=6;">
+        <button onclick="rotLift6.splice(-1,1);">x</button>
+        <img  src="images/rot/Lift7.gif" style="height: 30px" onclick="Element=8;">
+        <button onclick="rotLift8.splice(-1,1);">x</button>
+        <img  src="images/rot/Lift8.gif" style="height: 30px" onclick="Element=10;">
+        <button onclick="rotLift10.splice(-1,1);">x</button>
+        <img  src="images/rot/Lift11.gif" style="height: 30px" onclick="Element=12;">
+        <button onclick="rotLift12.splice(-1,1);">x</button>
+        <img  src="images/rot/Lift12.gif" style="height: 30px" onclick="Element=14;">
+        <button onclick="rotLift14.splice(-1,1);">x</button>
+
+    </div>
+    <div id="blau" style="display:none;">
+        <button onclick="(function () {
+          document.getElementById('blau').style.display='none';
+          document.getElementById('grün').style.display='inline';
+          color='grün';
+        })();">change</button>
+        <img  src="images/blau/Hütte1.gif" style="height: 30px" onclick="Element=1;">
+        <button onclick="blauH1.splice(-1,1);">x</button>
+        <img  src="images/blau/Hütte2.gif" style="height: 30px"  onclick="Element=2;">
+        <button onclick="blauH2.splice(-1,1);">x</button>
+        <img  src="images/blau/Schirm.gif" style="height: 30px" onclick="Element=3;">
+        <button onclick="blauSchirm.splice(-1,1);">x</button>
+        <img  src="images/blau/Lift3.gif" style="height: 30px" onclick="Element=4;">
+        <button onclick="blauLift3.splice(-1,1);">x</button>
+        <img  src="images/blau/Lift6.gif" style="height: 30px" onclick="Element=6;">
+        <button onclick="blauLift6.splice(-1,1);">x</button>
+        <img  src="images/blau/Lift7.gif" style="height: 30px" onclick="Element=8;">
+        <button onclick="blauLift8.splice(-1,1);">x</button>
+        <img  src="images/blau/Lift8.gif" style="height: 30px" onclick="Element=10;">
+        <button onclick="blauLift10.splice(-1,1);">x</button>
+        <img  src="images/blau/Lift11.gif" style="height: 30px" onclick="Element=12;">
+        <button onclick="blauLift12.splice(-1,1);">x</button>
+        <img  src="images/blau/Lift12.gif" style="height: 30px" onclick="Element=14;">
+        <button onclick="blauLift14.splice(-1,1);">x</button>
+
+    </div>
+
+    <div id="grün" style="display:none;">
+        <button onclick="(function () {
+          document.getElementById('grün').style.display='none';
+          document.getElementById('gelb').style.display='inline';
+          color='gelb';
+        })();">change</button>
+        <img  src="images/grün/Hütte1.gif" style="height: 30px" onclick="Element=1;">
+        <button onclick="grünH1.splice(-1,1);">x</button>
+        <img  src="images/grün/Hütte2.gif" style="height: 30px"  onclick="Element=2;">
+        <button onclick="grünH2.splice(-1,1);">x</button>
+        <img  src="images/grün/Schirm.gif" style="height: 30px" onclick="Element=3;">
+        <button onclick="grünSchirm.splice(-1,1);">x</button>
+        <img  src="images/grün/Lift3.gif" style="height: 30px" onclick="Element=4;">
+        <button onclick="grünLift3.splice(-1,1);">x</button>
+        <img  src="images/grün/Lift6.gif" style="height: 30px" onclick="Element=6;">
+        <button onclick="grünLift6.splice(-1,1);">x</button>
+        <img  src="images/grün/Lift7.gif" style="height: 30px" onclick="Element=8;">
+        <button onclick="grünLift8.splice(-1,1);">x</button>
+        <img  src="images/grün/Lift8.gif" style="height: 30px" onclick="Element=10;">
+        <button onclick="grünLift10.splice(-1,1);">x</button>
+        <img  src="images/grün/Lift11.gif" style="height: 30px" onclick="Element=12;">
+        <button onclick="grünLift12.splice(-1,1);">x</button>
+        <img  src="images/grün/Lift12.gif" style="height: 30px" onclick="Element=14;">
+        <button onclick="grünLift14.splice(-1,1);">x</button>
+
+    </div>
+
+</div>
+<canvas id="canvas" height="1080px"></canvas>
+
+
+
+    <div style="display:none;">
+        <img id="gelbLift1" src="images/gelb/Lift1.gif">
+        <img id="gelbLift2" src="images/gelb/Lift2.gif">
+        <img id="gelbLift3" src="images/gelb/Lift3.gif">
+        <img id="gelbLift4" src="images/gelb/Lift4.gif">
+        <img id="gelbLift5" src="images/gelb/Lift5.gif">
+        <img id="gelbLift6" src="images/gelb/Lift6.gif">
+        <img id="gelbLift7" src="images/gelb/Lift7.gif">
+        <img id="gelbLift8" src="images/gelb/Lift8.gif">
+        <img id="gelbLift9" src="images/gelb/Lift9.gif">
+        <img id="gelbLift10" src="images/gelb/Lift10.gif">
+        <img id="gelbLift11" src="images/gelb/Lift11.gif">
+        <img id="gelbLift12" src="images/gelb/Lift12.gif">
+        <img id="gelbHütte1" src="images/gelb/Hütte1.gif">
+        <img id="gelbHütte2" src="images/gelb/Hütte2.gif">
+        <img id="gelbSchirm" src="images/gelb/Schirm.gif">
+
+        <img id="rotLift1" src="images/rot/Lift1.gif">
+        <img id="rotLift2" src="images/rot/Lift2.gif">
+        <img id="rotLift3" src="images/rot/Lift3.gif">
+        <img id="rotLift4" src="images/rot/Lift4.gif">
+        <img id="rotLift5" src="images/rot/Lift5.gif">
+        <img id="rotLift6" src="images/rot/Lift6.gif">
+        <img id="rotLift7" src="images/rot/Lift7.gif">
+        <img id="rotLift8" src="images/rot/Lift8.gif">
+        <img id="rotLift9" src="images/rot/Lift9.gif">
+        <img id="rotLift10" src="images/rot/Lift10.gif">
+        <img id="rotLift11" src="images/rot/Lift11.gif">
+        <img id="rotLift12" src="images/rot/Lift12.gif">
+        <img id="rotHütte1" src="images/rot/Hütte1.gif">
+        <img id="rotHütte2" src="images/rot/Hütte2.gif">
+        <img id="rotSchirm" src="images/rot/Schirm.gif">
+
+        <img id="blauLift1" src="images/blau/Lift1.gif">
+        <img id="blauLift2" src="images/blau/Lift2.gif">
+        <img id="blauLift3" src="images/blau/Lift3.gif">
+        <img id="blauLift4" src="images/blau/Lift4.gif">
+        <img id="blauLift5" src="images/blau/Lift5.gif">
+        <img id="blauLift6" src="images/blau/Lift6.gif">
+        <img id="blauLift7" src="images/blau/Lift7.gif">
+        <img id="blauLift8" src="images/blau/Lift8.gif">
+        <img id="blauLift9" src="images/blau/Lift9.gif">
+        <img id="blauLift10" src="images/blau/Lift10.gif">
+        <img id="blauLift11" src="images/blau/Lift11.gif">
+        <img id="blauLift12" src="images/blau/Lift12.gif">
+        <img id="blauHütte1" src="images/blau/Hütte1.gif">
+        <img id="blauHütte2" src="images/blau/Hütte2.gif">
+        <img id="blauSchirm" src="images/blau/Schirm.gif">
+
+        <img id="grünLift1" src="images/grün/Lift1.gif">
+        <img id="grünLift2" src="images/grün/Lift2.gif">
+        <img id="grünLift3" src="images/grün/Lift3.gif">
+        <img id="grünLift4" src="images/grün/Lift4.gif">
+        <img id="grünLift5" src="images/grün/Lift5.gif">
+        <img id="grünLift6" src="images/grün/Lift6.gif">
+        <img id="grünLift7" src="images/grün/Lift7.gif">
+        <img id="grünLift8" src="images/grün/Lift8.gif">
+        <img id="grünLift9" src="images/grün/Lift9.gif">
+        <img id="grünLift10" src="images/grün/Lift10.gif">
+        <img id="grünLift11" src="images/grün/Lift11.gif">
+        <img id="grünLift12" src="images/grün/Lift12.gif">
+        <img id="grünHütte1" src="images/grün/Hütte1.gif">
+        <img id="grünHütte2" src="images/grün/Hütte2.gif">
+        <img id="grünSchirm" src="images/grün/Schirm.gif">
+    </div>
+</body>
+</html>

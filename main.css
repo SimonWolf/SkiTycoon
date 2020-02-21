@@ -1,0 +1,17 @@
+/*Simple reset*/
+* {margin: 0; padding: 0;}
+
+body {
+    /*You can use any kind of background here.*/
+    background: #fff;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+canvas {
+    display: block;
+}
+canvas {
+    display: block;
+}
